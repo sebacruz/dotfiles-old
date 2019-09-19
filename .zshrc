@@ -108,3 +108,24 @@ fpath=($fpath "/home/sebas/.zfunctions")
 # Set Spaceship ZSH as a prompt
 autoload -U promptinit; promptinit
 prompt spaceship
+
+# Spaceshipt options
+SPACESHIP_TIME_SHOW=true
+SPACESHIP_TIME_COLOR=008
+
+SPACESHIP_DIR_PREFIX=''
+SPACESHIP_DIR_PREFIX=''
+
+SPACESHIP_GIT_PREFIX=''
+SPACESHIP_GIT_BRANCH_PREFIX='('
+SPACESHIP_GIT_BRANCH_SUFFIX=')'
+
+# Spaceship prompt order
+SPACESHIP_PROMPT_ORDER=(
+  time
+  dir
+  git
+  jobs
+  line_sep
+  char
+)
